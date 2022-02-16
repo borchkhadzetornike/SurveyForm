@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 :root{
-    --normal-text : 18px;
+    --normal-text: 18px;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -11,7 +11,7 @@ header{
     text-align: center;
 }
 label{
-    font-size: 16px;
+    font-size: var(--normal-text);
 }
 #description{
     margin-bottom: 30px;
@@ -67,7 +67,7 @@ input[type="radio"]{
     border: transparent;
     color: white;
     margin: 20px 0;
-    font-size: var(--normal-text);
+    font-size: var('--normal-text');
     box-sizing: border-box;
     padding: 10px;
 }
@@ -89,17 +89,12 @@ footer{
     margin: 30px 0;
     color: white;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     #survey-form{
         width: 100%;
     }
     :root{
         --normal-text: 16px;
-    }
-}
-@media only screen and (max-width: 1000px) {
-    #survey-form{
-        width: 90%;
     }
 }
   
