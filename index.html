@@ -12,19 +12,16 @@
       </header>
       <section>
          <div class="form">
-            <form action="survey-form">
+            <form action="survey-form" id="survey-form">
 
                <label for="name" id="name-label" class="input-heading"><b>Name</b></label>
                <input id="name" type="text" name="name" placeholder="Enter Your Name" class="inputs" required></input>   
-               <br>
 
                <label for="email" id="email-label" class="input-heading"><b>Email</b></label>
                <input id="email" type="email" name="email" placeholder="Enter Your Email" class="inputs" required></input>
-               <br>
 
                <label for="number" id="number-label" class="input-heading"><b>Age</b></label>
                <input id="number" type="number" name="number" min="6" max="100" placeholder="Age" class="inputs" required></input>
-               <br>
 
                <label for="dropdown" placeholder id="model" class="input-heading"><b>Which option best describes your current role?</b></label>
                <select id="dropdown">
@@ -35,22 +32,20 @@
                   <option value = "Prefer_Not_To_Say">Prefer Not To Say</option>
                   <option value = "Other">Other</option>
                </select>
+
+               <label for="recommendation" id="recommendation" class="radio-checkbox-heading"><b>Would you recommend freeCodeCamp to a friend?</b></label>
+               <input id="recommendation" type="radio" name="color" value="Defenetly">
+               <label for="recommendation">Defenetly</label>
+               <br>
+               <input id="recommendation" type="radio" name="color" value="Maybe">
+               <label for="recommendation">Maybe</label>
+               <br>
+               <input id="recommendation" type="radio" name="color" value="No">
+               <label for="recommendation">No</label>
+               <br>
                <br>
 
-               <label for="recommend" id="recommend" class="input-heading"><b>Would you recommend freeCodeCamp to a friend?</b></label>
-               <br>
-               <input id="recommend" type="radio" name="color" value="Defenetly">
-               <label for="recommend">Defenetly</label>
-               <br>
-               <input id="recommend" type="radio" name="color" value="Maybe">
-               <label for="recommend">Maybe</label>
-               <br>
-               <input id="recommend" type="radio" name="color" value="No">
-               <label for="recommend">No</label>
-               <br>
-
-               <label for="improved" class="input-heading"> <b>What would you like to see improved?</b></label>
-               <br>
+               <label for="improved" class="radio-checkbox-heading"> <b>What would you like to see improved?</b></label>
                <input id="checkbox" type="checkbox" name="improved" value="front_end">
                <label for="checkbox">Front-End Projects</label>
                <br>
@@ -66,17 +61,20 @@
                <input id="checkbox" type="checkbox" name="improved" value="forum">
                <label for="checkbox">Forum</label>
                <br>
-
-               <label id="textarea" class="input-heading"><b>Any comments or suggestions?</b></label>
                <br>
+               
+
+               <label class="input-heading"><b>Any comments or suggestions?</b></label>
                <textarea id="textarea" name="comments" rows="5" cols="59.5">
                </textarea>
-               <br>
 
-               <input id="submit" type="submit" value="submit" class="submit-button">
-
+               <input id="submit" type="submit" value="Submit" class="submit-button">
+ 
             </form>
          </div>
       </section>
+      <footer>
+         The Tribute Page of Isaac Newton By Tornike Borchkhadze © 2022
+      </footer>
    </body>
 </html>
