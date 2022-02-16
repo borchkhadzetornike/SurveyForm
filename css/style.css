@@ -9,7 +9,7 @@ header{
     text-align: center;
 }
 label{
-    font-size: 18px;
+    font-size: 16px;
 }
 #description{
     margin-bottom: 30px;
@@ -35,7 +35,7 @@ input{
     box-sizing: border-box;
     padding: 10px;
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 16px;
 }
 #dropdown{
     display: block;
@@ -44,7 +44,7 @@ input{
     height: 40px;
     background-color: #2a2a40;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     box-sizing: border-box;
     padding: 10px;
     border: transparent;
@@ -65,7 +65,7 @@ input[type="radio"]{
     border: transparent;
     color: white;
     margin: 20px 0;
-    font-size: 18px;
+    font-size: 16px;
     box-sizing: border-box;
     padding: 10px;
 }
